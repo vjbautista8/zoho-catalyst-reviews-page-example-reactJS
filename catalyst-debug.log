@@ -1,0 +1,548 @@
+[debug] [2023-02-18T19:06:15.162Z] : 
+[debug] [2023-02-18T19:06:15.163Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:06:15.164Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-18T19:06:15.164Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T19:06:15.165Z] : Platform:     win32
+[debug] [2023-02-18T19:06:15.165Z] : Node Version: v18.12.1
+[debug] [2023-02-18T19:06:15.166Z] : Time:         Sun Feb 19 2023 03:06:15 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T19:06:15.166Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:06:15.166Z] : 
+[debug] [2023-02-18T19:06:15.786Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T19:06:15.786Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T19:06:15.798Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084 
+
+[debug] [2023-02-18T19:06:16.469Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:06:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=c04db356-0c8b-496a-bca4-4a92ab47ac79;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c04db356-0c8b-496a-bca4-4a92ab47ac79;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:06:16.482Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/environment 
+
+[debug] [2023-02-18T19:06:17.030Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:06:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=2f8ee541-d779-4e07-a213-e14f9f1042b6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2f8ee541-d779-4e07-a213-e14f9f1042b6;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:06:17.223Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T19:06:17.778Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:06:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=041d575b-9ae4-4d6d-8031-d0f73ae6874d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=041d575b-9ae4-4d6d-8031-d0f73ae6874d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:06:17.785Z] : unknown eol undefined hence skipping check
+[info] [2023-02-18T19:06:17.868Z] : i server[reviews_function]: URL : http://localhost:3000/server/reviews_function/
+[info] [2023-02-18T19:06:17.869Z] : 
+[info] [2023-02-18T19:06:20.203Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-18T19:06:20.205Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-18T19:06:25.464Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:06:25.465Z] : [react-plugin]: Module not found: Error: Can't resolve 'react-icons/fa' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\Reviews\react-app\src'
+[info] [2023-02-18T19:06:37.178Z] : Shutting down server
+[info] [2023-02-18T19:06:37.192Z] : 
+[info] [2023-02-18T19:06:37.194Z] : √ Shutdown complete
+[debug] [2023-02-18T19:06:37.195Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T19:06:37.197Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-18T19:06:37.197Z] : TOTAL DURATION OF COMMAND EXEC : 21422
+[debug] [2023-02-18T19:06:37.218Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T19:06:38.822Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:06:39 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=5dd525eb-8ca7-4b7f-83eb-f5ca063111dd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5dd525eb-8ca7-4b7f-83eb-f5ca063111dd;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=20D2FE301B7AD4B5539BE48B25950B81; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T19:06:38.823Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T19:06:38.828Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T19:09:02.172Z] : 
+[debug] [2023-02-18T19:09:02.173Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:09:02.174Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-18T19:09:02.174Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T19:09:02.175Z] : Platform:     win32
+[debug] [2023-02-18T19:09:02.175Z] : Node Version: v18.12.1
+[debug] [2023-02-18T19:09:02.176Z] : Time:         Sun Feb 19 2023 03:09:02 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T19:09:02.176Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:09:02.176Z] : 
+[debug] [2023-02-18T19:09:02.781Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T19:09:02.782Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T19:09:02.793Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084 
+
+[debug] [2023-02-18T19:09:03.409Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:09:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=391ac0fc-bb49-488c-ae41-3dd7402ccecd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=391ac0fc-bb49-488c-ae41-3dd7402ccecd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:09:03.412Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/environment 
+
+[debug] [2023-02-18T19:09:03.958Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:09:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=8633e4d0-ac20-49bb-aa45-bc041637fc40;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8633e4d0-ac20-49bb-aa45-bc041637fc40;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:09:04.160Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T19:09:04.715Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:09:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=859279aa-5799-4bcf-9f5f-333381b9110d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=859279aa-5799-4bcf-9f5f-333381b9110d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:09:04.717Z] : unknown eol undefined hence skipping check
+[info] [2023-02-18T19:09:04.761Z] : i server[reviews_function]: URL : http://localhost:3000/server/reviews_function/
+[info] [2023-02-18T19:09:04.761Z] : 
+[info] [2023-02-18T19:09:07.001Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-18T19:09:07.003Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-18T19:09:10.814Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:09:10.815Z] : [react-plugin]: Module not found: Error: Can't resolve 'react-icons/fa' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\Reviews\react-app\src'
+[info] [2023-02-18T19:10:19.012Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:10:19.345Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:10:19.345Z] : [react-plugin]: Module not found: Error: Can't resolve 'react-icons/fa' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\Reviews\react-app\src'
+[info] [2023-02-18T19:10:19.390Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:10:19.472Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:10:19.472Z] : [react-plugin]: Module not found: Error: Can't resolve 'react-icons/fa' in 'C:\Users\USER\Desktop\React Udemy Class\CATALYST\Reviews\react-app\src'
+[info] [2023-02-18T19:10:19.658Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:10:21.260Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:10:21.260Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.260Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:10:21.260Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.261Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:10:21.261Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:10:21.261Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.261Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:10:21.262Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:10:21.262Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.282Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:10:21.449Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:10:21.449Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.449Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:10:21.449Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.450Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:10:21.450Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:10:21.450Z] : [react-plugin]: 
+[info] [2023-02-18T19:10:21.450Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:10:21.451Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:10:21.451Z] : [react-plugin]: 
+[info] [2023-02-18T19:16:31.340Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:16:32.643Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:16:32.643Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:8:  'Review' is defined but never used  no-unused-vars
+[info] [2023-02-18T19:16:32.643Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:16:32.644Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:16:46.971Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:16:47.228Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:16:47.228Z] : [react-plugin]: 
+[info] [2023-02-18T19:16:47.228Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:16:47.228Z] : [react-plugin]: 
+[info] [2023-02-18T19:16:47.229Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:16:47.229Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:16:47.229Z] : [react-plugin]: 
+[info] [2023-02-18T19:16:47.230Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:16:47.230Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:16:47.230Z] : [react-plugin]: 
+[info] [2023-02-18T19:18:35.459Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:18:36.598Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:18:36.599Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 2:8:   'people' is defined but never used             no-unused-vars
+  Line 3:10:  'FaChevronLeft' is defined but never used      no-unused-vars
+  Line 3:25:  'FaChevronRight' is defined but never used     no-unused-vars
+  Line 3:41:  'FaQuoteRight' is defined but never used       no-unused-vars
+  Line 6:10:  'index' is assigned a value but never used     no-unused-vars
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:18:36.599Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:18:36.599Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:18:58.309Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:18:58.552Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:18:58.552Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 3:10:  'FaChevronLeft' is defined but never used      no-unused-vars
+  Line 3:25:  'FaChevronRight' is defined but never used     no-unused-vars
+  Line 3:41:  'FaQuoteRight' is defined but never used       no-unused-vars
+  Line 6:10:  'index' is assigned a value but never used     no-unused-vars
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:18:58.553Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:18:58.553Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:20:09.559Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:20:09.762Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:20:09.762Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 3:10:  'FaChevronLeft' is defined but never used      no-unused-vars
+  Line 3:25:  'FaChevronRight' is defined but never used     no-unused-vars
+  Line 3:41:  'FaQuoteRight' is defined but never used       no-unused-vars
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+  Line 7:11:  'name' is assigned a value but never used      no-unused-vars
+  Line 7:17:  'job' is assigned a value but never used       no-unused-vars
+  Line 7:22:  'image' is assigned a value but never used     no-unused-vars
+  Line 7:29:  'text' is assigned a value but never used      no-unused-vars
+[info] [2023-02-18T19:20:09.763Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:20:09.763Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:21:29.904Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:21:30.108Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:21:30.109Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 3:10:  'FaChevronLeft' is defined but never used      no-unused-vars
+  Line 3:25:  'FaChevronRight' is defined but never used     no-unused-vars
+  Line 3:41:  'FaQuoteRight' is defined but never used       no-unused-vars
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+  Line 7:17:  'job' is assigned a value but never used       no-unused-vars
+  Line 7:29:  'text' is assigned a value but never used      no-unused-vars
+[info] [2023-02-18T19:21:30.109Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:21:30.109Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:23:06.729Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:23:07.177Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:23:07.177Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 3:10:  'FaChevronLeft' is defined but never used      no-unused-vars
+  Line 3:25:  'FaChevronRight' is defined but never used     no-unused-vars
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:23:07.177Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:23:07.177Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:25:33.217Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:25:33.570Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:25:33.571Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:25:33.571Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:25:33.571Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:25:52.574Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:25:52.778Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:25:52.779Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 6:17:  'setIndex' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:25:52.779Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:25:52.779Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:28:00.775Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:28:01.031Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:28:01.031Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 24:50:  'prevPerson' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-18T19:28:24.002Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:28:24.352Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T19:28:24.353Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 25:50:  'prevPerson' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-18T19:28:41.913Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:28:42.172Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:28:42.172Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:42.173Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:28:42.173Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:42.173Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:28:42.173Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:28:42.173Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:42.174Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:28:42.174Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:28:42.174Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:52.440Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:28:52.546Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:28:52.546Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:52.547Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:28:52.547Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:52.547Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:28:52.547Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:28:52.547Z] : [react-plugin]: 
+[info] [2023-02-18T19:28:52.548Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:28:52.548Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:28:52.548Z] : [react-plugin]: 
+[info] [2023-02-18T19:30:18.761Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:30:19.016Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:30:19.016Z] : [react-plugin]: 
+[info] [2023-02-18T19:30:19.016Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:30:19.016Z] : [react-plugin]: 
+[info] [2023-02-18T19:30:19.017Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:30:19.017Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:30:19.017Z] : [react-plugin]: 
+[info] [2023-02-18T19:30:19.017Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:30:19.018Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:30:19.018Z] : [react-plugin]: 
+[info] [2023-02-18T19:32:39.461Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:32:39.579Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:32:39.579Z] : [react-plugin]: 
+[info] [2023-02-18T19:32:39.579Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:32:39.580Z] : [react-plugin]: 
+[info] [2023-02-18T19:32:39.580Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:32:39.580Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:32:39.580Z] : [react-plugin]: 
+[info] [2023-02-18T19:32:39.580Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:32:39.581Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:32:39.581Z] : [react-plugin]: 
+[debug] [2023-02-18T19:33:04.184Z] : > refreshing access token <
+[debug] [2023-02-18T19:33:04.191Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-18T19:33:04.808Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:33:05 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=57c7a14afabcac9a0b9dfc64b3542b70; Path=/","iamcsr=7383b4f4-e6d3-4e62-a37c-765e7e7054e7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7383b4f4-e6d3-4e62-a37c-765e7e7054e7;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T19:33:52.292Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:33:52.530Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:33:52.530Z] : [react-plugin]: 
+[info] [2023-02-18T19:33:52.530Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:33:52.531Z] : [react-plugin]: 
+[info] [2023-02-18T19:33:52.531Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:33:52.531Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:33:52.531Z] : [react-plugin]: 
+[info] [2023-02-18T19:33:52.531Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:33:52.532Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:33:52.532Z] : [react-plugin]: 
+[info] [2023-02-18T19:34:31.180Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:34:31.413Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:34:31.413Z] : [react-plugin]: 
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]: 
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]: 
+[info] [2023-02-18T19:34:31.414Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:34:31.415Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:34:31.415Z] : [react-plugin]: 
+[info] [2023-02-18T19:35:40.388Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:35:40.632Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:35:40.632Z] : [react-plugin]: 
+[info] [2023-02-18T19:35:40.632Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:35:40.632Z] : [react-plugin]: 
+[info] [2023-02-18T19:35:40.633Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:35:40.633Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:35:40.633Z] : [react-plugin]: 
+[info] [2023-02-18T19:35:40.633Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:35:40.634Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:35:40.634Z] : [react-plugin]: 
+[info] [2023-02-18T19:36:48.685Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:36:48.928Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:36:48.928Z] : [react-plugin]: 
+[info] [2023-02-18T19:36:48.928Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:36:48.929Z] : [react-plugin]: 
+[info] [2023-02-18T19:36:48.929Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:36:48.929Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:36:48.929Z] : [react-plugin]: 
+[info] [2023-02-18T19:36:48.930Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:36:48.930Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:36:48.930Z] : [react-plugin]: 
+[info] [2023-02-18T19:37:00.058Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]: 
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]: 
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:37:00.251Z] : [react-plugin]: 
+[info] [2023-02-18T19:37:00.252Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:37:00.252Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:37:00.252Z] : [react-plugin]: 
+[info] [2023-02-18T19:40:12.445Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:40:12.794Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:40:12.794Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 9:9:  'checkNumber' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:40:12.795Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:40:12.795Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:40:41.078Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:40:41.287Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]: 
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]: 
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:40:41.288Z] : [react-plugin]: 
+[info] [2023-02-18T19:40:41.289Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:40:41.289Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:40:41.289Z] : [react-plugin]: 
+[info] [2023-02-18T19:41:43.050Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:41:43.330Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:41:43.331Z] : [react-plugin]: 
+[info] [2023-02-18T19:41:43.331Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:41:43.331Z] : [react-plugin]: 
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]: 
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:41:43.332Z] : [react-plugin]: 
+[info] [2023-02-18T19:43:26.607Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:43:26.864Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:43:26.864Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 33:9:  'randomPerson' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T19:43:26.864Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:43:26.865Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:43:52.846Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:43:53.050Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:43:53.051Z] : [react-plugin]: 
+[info] [2023-02-18T19:43:53.051Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:43:53.051Z] : [react-plugin]: 
+[info] [2023-02-18T19:43:53.052Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:43:53.052Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:43:53.052Z] : [react-plugin]: 
+[info] [2023-02-18T19:43:53.052Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:43:53.052Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:43:53.053Z] : [react-plugin]: 
+[info] [2023-02-18T19:44:32.243Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:44:32.457Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:44:32.458Z] : [react-plugin]: 
+[info] [2023-02-18T19:44:32.458Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:44:32.458Z] : [react-plugin]: 
+[info] [2023-02-18T19:44:32.458Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:44:32.459Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:44:32.459Z] : [react-plugin]: 
+[info] [2023-02-18T19:44:32.459Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:44:32.459Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:44:32.459Z] : [react-plugin]: 
+[info] [2023-02-18T19:45:36.666Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:45:36.927Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-18T19:45:36.927Z] : [react-plugin]: 
+[info] [2023-02-18T19:45:36.927Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-18T19:45:36.928Z] : [react-plugin]: 
+[info] [2023-02-18T19:45:36.928Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-02-18T19:45:36.928Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-02-18T19:45:36.928Z] : [react-plugin]: 
+[info] [2023-02-18T19:45:36.928Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-18T19:45:36.929Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-18T19:45:36.929Z] : [react-plugin]: 
+[info] [2023-02-18T19:47:18.513Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:47:18.759Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:47:18.760Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 36:22:  Expected '===' and instead saw '=='  eqeqeq
+[info] [2023-02-18T19:47:18.760Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:47:18.760Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:47:49.718Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:47:49.922Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:47:49.923Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 36:22:  Expected '===' and instead saw '=='  eqeqeq
+[info] [2023-02-18T19:47:49.923Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:47:49.923Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:48:23.093Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T19:48:23.388Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:48:23.388Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 36:22:  Expected '===' and instead saw '=='  eqeqeq
+[info] [2023-02-18T19:48:23.388Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:48:23.389Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:50:25.440Z] : Shutting down server
+[info] [2023-02-18T19:50:25.444Z] : 
+[info] [2023-02-18T19:50:25.445Z] : √ Shutdown complete
+[debug] [2023-02-18T19:50:25.445Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T19:50:25.445Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-18T19:50:25.445Z] : TOTAL DURATION OF COMMAND EXEC : 2482677
+[debug] [2023-02-18T19:50:25.458Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T19:50:27.131Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:27 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=cb0eb4f8-a938-4f5a-bead-ddda4c03d68d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=cb0eb4f8-a938-4f5a-bead-ddda4c03d68d;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=6DD8D4DAFB60BB3BE38957E052330747; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T19:50:27.133Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T19:50:27.135Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T19:50:33.579Z] : 
+[debug] [2023-02-18T19:50:33.580Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:50:33.580Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-18T19:50:33.581Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T19:50:33.581Z] : Platform:     win32
+[debug] [2023-02-18T19:50:33.581Z] : Node Version: v18.12.1
+[debug] [2023-02-18T19:50:33.582Z] : Time:         Sun Feb 19 2023 03:50:33 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T19:50:33.582Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T19:50:33.583Z] : 
+[debug] [2023-02-18T19:50:34.179Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T19:50:34.180Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T19:50:34.191Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084 
+
+[debug] [2023-02-18T19:50:34.825Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=6401cc24-2a28-4b84-bb3b-e4b75d9d56a9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6401cc24-2a28-4b84-bb3b-e4b75d9d56a9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:50:34.839Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/environment 
+
+[debug] [2023-02-18T19:50:35.392Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:35 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=9eb0f7d0-d244-46b6-95f1-de8cc53ccfd5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9eb0f7d0-d244-46b6-95f1-de8cc53ccfd5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:50:35.403Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T19:50:35.941Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=b2359b61-056d-4b91-baf8-ad81db7b133f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b2359b61-056d-4b91-baf8-ad81db7b133f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T19:50:35.949Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-18T19:50:36.129Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/server/upsert 
+
+[debug] [2023-02-18T19:50:39.149Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:39 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=6750de68-eed8-4c37-b3ad-b19122c72e44;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6750de68-eed8-4c37-b3ad-b19122c72e44;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T19:50:39.245Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-18T19:50:39.246Z] : i Building Application...
+[info] [2023-02-18T19:50:41.060Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-18T19:50:48.887Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T19:50:48.888Z] : [react-plugin]: [eslint] 
+src\Review.js
+  Line 36:22:  Expected '===' and instead saw '=='  eqeqeq
+[info] [2023-02-18T19:50:48.888Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T19:50:48.889Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T19:50:48.890Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-18T19:50:48.901Z] : [react-plugin]:   47.95 kB  build\static\js\main.819d5d62.js
+[info] [2023-02-18T19:50:48.902Z] : [react-plugin]:   1.35 kB   build\static\css\main.04fb4881.css
+[info] [2023-02-18T19:50:48.902Z] : [react-plugin]:  
+[debug] [2023-02-18T19:50:49.270Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093084/webapp 
+
+[debug] [2023-02-18T19:50:51.954Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=f91022a0-4946-4fa9-ac4c-197fbf69073c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f91022a0-4946-4fa9-ac4c-197fbf69073c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T19:50:51.955Z] : 
+[info] [2023-02-18T19:50:51.955Z] : i functions(reviews_function): URL => https://reviews-771945458.development.catalystserverless.com/server/reviews_function/
+[info] [2023-02-18T19:50:51.955Z] : √ functions(reviews_function): deploy successful
+[info] [2023-02-18T19:50:51.955Z] : 
+[info] [2023-02-18T19:50:51.956Z] : √ client: deploy successful
+[info] [2023-02-18T19:50:51.956Z] : i client: URL => https://reviews-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-18T19:50:51.956Z] : 
+[info] [2023-02-18T19:50:51.956Z] : √ Catalyst deploy complete!
+[debug] [2023-02-18T19:50:51.957Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T19:50:51.957Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-18T19:50:51.957Z] : TOTAL DURATION OF COMMAND EXEC : 17790
+[debug] [2023-02-18T19:50:51.967Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T19:50:53.545Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 19:50:54 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=e9c8acd6-4598-4197-af00-42f543e21417;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e9c8acd6-4598-4197-af00-42f543e21417;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=4E25CE428B4BB36A7F4DFFFA44038AB5; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T19:50:53.545Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T19:50:53.546Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
